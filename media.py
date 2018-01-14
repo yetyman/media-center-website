@@ -1,9 +1,8 @@
-import fresh_tomatoes
-import webbrowser
-
-class Movie():
-    def __init__(itsme,movie_title,movie_trailer, poster_url):
-        itsme.title = movie_title
-        itsme.trailer_youtube_url = movie_trailer
-        itsme.poster_image_url = poster_url
+"""defines media types"""
+class Movie(object):
+    """a light container for movie as it pertains to the entertainment center module's usage"""
+    def __init__(self, movie_title, movie_trailer, poster_url):
+        self.title = movie_title
+        self.trailer_youtube_url = movie_trailer
+        self.poster_image_url = poster_url
    
